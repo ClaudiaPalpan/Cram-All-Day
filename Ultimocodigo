@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles.css" type="text/css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <title>Cram All Day</title>
+    </head>
+
+    <body>
+      <header>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Principal</a>
+                    </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Cursos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Novedades</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Contáctanos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Soporte Técnico</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                  <button class="btn btn-light" type="submit" style="font-size:25px;font-weight: 500; border-radius: 22px; width: 200px;">Iniciar Sesión</button>
+                </form>
+            </div>
+          </div>
+        </nav>
+
+        <section class="textos-header">
+          <div class="caja">
+            <p id="titulo">
+                CRAM ALL DAY
+            </p>
+            <p class="imagen">
+                <img src="logo.png"
+                alt="Cram All Day"/>
+            </p>
+            <a class="btnregistrate" href="">Regístrate</a>   
+        </div>
+         </section>
+
+      </header>
+
+      <main>
+
+        <section class="seccion-empezar"> 
+          <hr id="linea1" style="border-top:5px dotted ;width:auto" />
+          <div class="container">
+              <div class="row">
+
+                  <div class="col-lg-3 col-sm-12 col-xm-12 ">
+                      <img class="imagen-izquierda" src="recompensas.png" alt="Recompensas" />
+                  </div>
+
+                  <div class="col-lg-6 col-sm-12 col-xm-12 ">
+                      <div class="centrar-texto" >
+                          <p class="texto-medio">Encuentra material de estudio actualizado y diviértete compitiendo para ganar puntos canjeables</p>
+                          <button type="submit" class="boton-naranja">Empezar</button>
+                      </div>
+                  </div>
+
+                  <div class="col-lg-3 col-sm-12 col-xm-12 ">
+                      <img class="imagen-derecha" src="materialdestudio.png" alt="Material_De_Estudio"/>
+                  </div>
+                  
+              </div>
+          </div>
+          <hr id="linea2" style="border-top:5px dotted ;width:auto" />
+      </section>
+
+      </main>
+    </body>
+</html>
