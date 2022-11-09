@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    background-color: black;
+    position: relative;
+    z-index: 1;
+}
+
+.icono_hamburguesa span{
+  height: 3px;
+  display: block;
+  background-color: white;
+  margin-bottom: 6px;
+}
+
+.icono_hamburguesa{
+  float: right;
+  width: 30px;
+  position: relative;
+  top: 25px;
+  margin-left: 37px;
+  margin-right: 15px;
+}
+
+.nav-item{
+    font-size: 25px;
+}
+
+.d-flex{
+    margin-right: 60px;
+    
+}
+
+/*nav .logo2{
+  color: white;
+  font-size: 24px;
+  line-height: 70px;
+  font-weight: 900;
+  margin-left: 28px;
+}*/
+
+nav ul li{
+    display: inline-block;
+    margin: 27px 37px;
+}
+nav ul{
+    float: left;
+    margin-left: 15px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 19px;
+    padding: 8px 6px;
+    text-decoration: none;
+    font-family:'Cambria';
+}
+
+nav ul li a:hover{
+    color: orange;
+}
+
+/******** Clau */
+
+header {
+    width: 100%;
+    height: 900px;
+    background: url(fondonuevo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+header .seccion-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.seccion-header h1{
+    padding: 60px 0 0 0;
+    font-size: 100px;
+    color:#fff;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 300px;
+}
+.logo{
+    width: 600px;
+    height: 800px;
+    display: block;
+}
+.btnregistrate{
+    display: block;
+    width: 280px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-family: 'Cambria';
+    font-weight: 700;
+    border-radius: 22px;
+    font-size: 40px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+.btnregistrate:hover{
+    background-color: orange;
+}
+
+
+
+.universidades{
+    background: #FDE086;
+}
+.contenedor {
+    padding: 10px 0;
+    width: 95%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+   
+}
+.titulo2 {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: orange;
+    margin-bottom: 30px;
+}
+.imagenes-universidad{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   
+}
+
+.galeria-port{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgb(0, 255, 115);
+}
+.imagen-port{
+    width: 50%;
+    margin-bottom: 5px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+
+.imagen-port img{
+    width: 500px;
+    height: 200px;
+}
+
+@media screen and (max-width:900px){
+    header{
+        background-position: center;
+    }
+
+}
+@media screen and (max-width:500px){
+    .seccion-header h1{
+        font-size: 72px;
+    }
+    
+}
+
+/********* Isa*/
+
+main {
+    display: block;
+}
+
+main .seccion-empezar {
+    background-color: #FDE086;
+    height: 600px;
+    padding: 30px 0 60px 0;
+    margin: auto;
+}
+
+.section {
+    display: block;
+}
+
+.imagen-izquierda{
+    margin-top: 36px;
+    width: 300px;
+    height: 400px;
+    display: block;
+    margin-bottom: 18px;
+}
+
+.imagen-derecha{
+    margin-top: 36px;
+    width: 300px;
+    height: 400px;
+    display: block;
+    margin-bottom: 18px;
+}
+
+.boton-naranja{ 
+  padding: .25rem 10rem .600rem; /*ajustar tamaño*/
+  background-color: #FF7100; /*color boton*/
+  color: #fff; /*color letra*/
+  font-size: 25px;
+  border-radius: 22px;
+  border-color: #FF7100;
+}
+
+
+.centrar-texto{
+    padding-bottom: 30px;  
+    padding-top: 180px; 
+    text-align: center;
+    font-size: 1em;
+    text-transform: uppercase;
+    display: block;
+}
+
+.texto-medio{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    padding: 0 20px 0 20px;
+    
+}
+
+.container {
+    margin: auto;
+    overflow: hidden;
+}
+
+.texto-pequeno{
+  font-size: 0.75rem;
+  margin-bottom: 200px;
+}
+
+/******* Aldo */
+
+main .segmento-objetivo{
+    display: block;
+    width: 100%;
+    padding: 30px 0 60px 0;
+    margin: auto;
+}
+
+.imagen-izquierda-estudiante{
+    margin: auto;
+    display: block;
+    padding: auto;
+    padding-top: 50px;
+    width: 80%;
+    margin: auto;
+}
+
+.imagen-derecha-profesor{
+    padding: auto;
+    margin: auto;
+    display: block;
+    padding-top: 50px;
+    width: 80%;
+    margin: auto;
+}
+
+.centrar-texto-segmento{
+    padding-bottom: 30px;  
+    padding-top: 125px; 
+    text-align: center;
+    font-size: 1em;
+    text-transform: uppercase;
+    display: block;
+    
+}
+
+.fondo_img {
+    background-color: #FFA000;
+    margin-top: 35px;
+    height: 20rem;
+    width: 15rem;
+    border-radius: 2rem;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 100px;
+
+    padding: auto;
+}
+
+.fondo_img span{
+    font-size: 40px;
+    color: #fff;
+}
+
+.boton-naranja-segmento{ 
+    padding: .25rem 10rem .600rem; /*ajustar tamaño*/
+    background-color: #FF7100; /*color boton*/
+    color: #fff; /*color letra*/
+    font-size: 25px;
+    border-radius: 22px;
+    border-color: #FF7100;
+  }
+
+/******* Yhadira */
+
+.completar-yhadira{
+    background-color: white;
+    display: block;
+    width: 100%;
+    height: 400px;
+}
+.subtitulo{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color:gray;
+}
+
+.imagen1{
+    padding: 20px;
+    position: relative;
+    text-align: center;
+}
+.imagen2{
+    position:relative;
+
+}
+
+.pieseguridad{
+    
+    position:relative;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    color:gray;
+    float: left;
+}
+.pieterminos{
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    color:gray;
+}
+.piederechos{
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    color:gray;
+    float: right;
+}
+
+.linea1{
+    height: 4px;
+    background-color:lightskyblue;
+}
+.linea2{
+    height: 4px;
+}
+
+hr{
+    height: 1px;
+}
+
+.piepagina{
+    padding: 0px;
+    display: FLEX;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+
+@media(max-width: 600px){
+    .piepagina{
+        display:list-item;
+        font-size: 10px;
+    }
+    .pieseguridad{
+        float: none;
+
+    }
+    .piederechos{
+        float: none;
+    }
+    .imagen2{
+        position:relative;
+        text-align: center;
+    }
+
+}
+
