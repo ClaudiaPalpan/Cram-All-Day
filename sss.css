@@ -71,16 +71,47 @@ header .seccion-header{
    
 }
 
+.galeria-port{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgb(0, 255, 115);
+}
+.imagen-port{
+    width: 50%;
+    margin-bottom: 5px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+
+.imagen-port img{
+    width: 500px;
+    height: 200px;
+}
+
 
 @media screen and (max-width:900px){
     header{
         background-position: center;
     }
-    
+    .imagen-port{
+        width: 44%;
+    }
+    img {
+        width: 44%;
+    }
+ 
 }
 @media screen and (max-width:500px){
     .textos-header h1{
         font-size: 35px;
     }
-    
+    .imagen-port{
+        width: 90%;
+    }
+    img {
+        width: 90%;
+    }
 }
