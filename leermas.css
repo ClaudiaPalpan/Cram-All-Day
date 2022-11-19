@@ -171,7 +171,6 @@ main .seccion-profesor{
     background: linear-gradient(to right, #ffe259, #ffa751); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
-/******* Yhadira */
 
 .imagen2{
     position:relative;
@@ -206,7 +205,6 @@ main .seccion-profesor{
     color:gray;
     float: right;
 }
-
 
 .linea2{
     height: 4px;
